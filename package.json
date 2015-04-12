@@ -1,0 +1,15 @@
+{
+  "name": "jquery.fx-transform",
+  "description": "Drop-in css-transforms for jQuery",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "grunt": "~0.4.5",
+    "grunt-browserify": "^3.7.0",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": ""
+  }
+}

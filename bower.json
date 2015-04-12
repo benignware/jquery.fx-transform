@@ -1,0 +1,21 @@
+{
+  "name": "jquery.fx-transform",
+  "version": "0.0.1",
+  "homepage": "https://github.com/benignware/jquery.fx-transform",
+  "authors": [
+    "Rafael Nowrotek <mail@benignware.com>"
+  ],
+  "description": "Drop-in css-transforms for jQuery",
+  "main": "dist/jquery.fx-transform.min.js",
+  "keywords": [
+    "jquery-extension"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
