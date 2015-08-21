@@ -13,15 +13,18 @@ module.export = (function($) {
       }
     }
     return null;
-  })('transform', ['', 'Moz', 'Webkit', 'O', 'Ms']);
+  })('transform', ['', 'Moz', 'Webkit', 'O', 'ms']);
   if (!transformStyle || typeof CSSMatrix === 'undefined') {
     // Not supported
     return;
   }
+  
+  console.log("transformStyle: ", transformStyle);
 
   // Register plugin
   $.extend($.fx.step, {
     transform: function(tween) {
+      console.log("transformStyle: ", transformStyle);
       $(tween.elem).css(transformStyle, tween.start);
       var start = $(tween.elem).css(transformStyle);
       $(tween.elem).css(transformStyle, tween.end);

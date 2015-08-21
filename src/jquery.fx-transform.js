@@ -12,12 +12,12 @@ module.export = (function($) {
       }
     }
     return null;
-  })('transform', ['', 'Moz', 'Webkit', 'O', 'Ms']);
+  })('transform', ['', 'Moz', 'Webkit', 'O', 'ms']);
   if (!transformStyle || typeof CSSMatrix === 'undefined') {
     // Not supported
     return;
   }
-
+  
   // Register plugin
   $.extend($.fx.step, {
     transform: function(tween) {
