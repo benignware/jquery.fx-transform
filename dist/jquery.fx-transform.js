@@ -19,12 +19,9 @@ module.export = (function($) {
     return;
   }
   
-  console.log("transformStyle: ", transformStyle);
-
   // Register plugin
   $.extend($.fx.step, {
     transform: function(tween) {
-      console.log("transformStyle: ", transformStyle);
       $(tween.elem).css(transformStyle, tween.start);
       var start = $(tween.elem).css(transformStyle);
       $(tween.elem).css(transformStyle, tween.end);
